@@ -1,0 +1,5 @@
+streamlit
+transformers>=4.44
+torch
+accelerate
+sentencepiece

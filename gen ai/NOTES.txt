@@ -1,0 +1,13 @@
+dev notes (ignore for grading if you want)
+
+- HF inference API does NOT host Qwen2.5-0.5B — spent a while on that error
+- switched OSS to groq llama-3.1-8b-instant, still counts as open weights
+- tried gemini + claude earlier, groq was the one with credits left
+- regex safety is janky but catches obvious jailbreak strings
+- TODO: better tool calling (proper function schema)
+- TODO: run qwen local once I install torch on this laptop
+
+bonus deploy stuff added:
+- deploy/DEPLOYMENT.md has cost/latency table
+- hf_space is ready to upload (memory+guardrails+tools)
+- modal/runpod/replicate/ollama folders with readmes

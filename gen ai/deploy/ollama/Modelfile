@@ -1,0 +1,7 @@
+# ollama create qwen-assistant -f Modelfile
+FROM qwen2.5:0.5b-instruct
+
+SYSTEM You are a helpful open-source assistant. Refuse harmful requests. Be concise.
+
+PARAMETER temperature 0.7
+PARAMETER num_predict 256

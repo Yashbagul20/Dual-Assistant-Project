@@ -1,0 +1,17 @@
+streamlit
+groq
+python-dotenv
+pandas
+matplotlib
+pydantic
+huggingface-hub
+
+# only if OSS_BACKEND=local or deploy/
+# torch
+# transformers
+# accelerate
+
+# optional deploy CLIs:
+# modal
+# runpod
+# cog (replicate)
