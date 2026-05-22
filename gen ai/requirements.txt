@@ -1,0 +1,12 @@
+streamlit
+groq
+python-dotenv
+pandas
+matplotlib
+pydantic
+huggingface-hub
+
+# only if OSS_BACKEND=local
+# torch
+# transformers
+# accelerate
